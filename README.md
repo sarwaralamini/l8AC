@@ -25,8 +25,6 @@ Done now your application development server should be run at: **http://127.0.0.
 
 ## Login & Default Credentials
 visit: [http://127.0.0.1:8000/login](http://127.0.0.1:8000/login)
-Login:
-**email:** system@email.com
+Login:<br/>
+**email:** system@email.com<br/>
 **pass :** password
-"# l8AC" 
-"# l8AC" 
