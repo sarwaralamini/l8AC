@@ -30,6 +30,7 @@ Route::get('login', [AuthController::class, 'index'])->name('login')->middleware
 / load minimum 3 second before hitting post login route.
 */
 Route::post('login', [AuthController::class, 'login'])->middleware(['guest','sleep']);
+Route::post('logout', [AuthController::class, 'logout'])->name('logout');
 
 Route::middleware(['auth'])->group(function () {
     Route::get('dashboard', [BackendController::class, 'index'])->name('dashboard');
